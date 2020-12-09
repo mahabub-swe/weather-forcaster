@@ -1,0 +1,80 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.app {
+  overflow: hidden;
+  width: 500px;
+  position: relative;
+  min-height: 95vh;
+  box-shadow: 0 0 5px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .app .header {
+    height: 50px;
+    display: flex; }
+    .app .header .logo {
+      background: #b1a9a9;
+      width: 15%;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .app .header .logo img {
+        height: 70%; }
+    .app .header .title {
+      background: #cec8c8;
+      width: 85%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+  .app form {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 80%;
+    height: 30px;
+    display: flex;
+    justify-content: center; }
+    .app form input {
+      width: 70%; }
+    .app form button {
+      width: 30%; }
+  .app .weather {
+    width: 90%;
+    line-height: 10px; }
+    .app .weather .tempareture {
+      display: flex;
+      align-items: center;
+      margin: -15px 0 -20px -15px; }
+    .app .weather .unit {
+      display: flex;
+      flex-direction: column;
+      margin-left: 5px; }
+      .app .weather .unit span {
+        margin-bottom: 5px; }
+    .app .weather .additionalInfo {
+      display: flex;
+      justify-content: space-between; }
+  .app .day {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: red;
+    display: flex;
+    justify-content: space-between; }
+    .app .day button {
+      font-size: 18px;
+      min-width: 20%; }
+  .app .weather-grapher {
+    position: relative;
+    width: 440px;
+    overflow: hidden; }
+    .app .weather-grapher .chartjs-wrapper {
+      transition: 0.5s;
+      position: relative;
+      right: 0;
+      width: 2000px;
+      height: 250px; }
+
+/*# sourceMappingURL=App.css.map */
