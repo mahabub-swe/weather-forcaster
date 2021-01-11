@@ -157,7 +157,7 @@ export default function WeatherGraph({ city, apiKey }) {
       </div>
       <div
         className="weather-grapher fixed"
-        style={{ position: "absolute", left: "5px" }}
+        style={{ position: "absolute", left: "25px" }}
       >
         <div className="chartjs-wrapper ">
           <canvas id="myFixedChart" className="fixed-chart"></canvas>
